@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background Image"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_wal10"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn1"/>
+
+                <Button
+                    android:id="@+id/btn_wal11"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bgn2"/>
+
+                <Button
+                    android:id="@+id/btn_wal12"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn3"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_wal13"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn4"/>
+
+                <Button
+                    android:id="@+id/btn_wal14"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bgn5"/>
+
+                <Button
+                    android:id="@+id/btn_wal15"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn6"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_wal16"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn7"/>
+
+                <Button
+                    android:id="@+id/btn_wal17"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/bgn8"/>
+
+                <Button
+                    android:id="@+id/btn_wal18"
+                    android:layout_width="100dp"
+                    android:layout_margin="3dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bgn9"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
